@@ -1,5 +1,5 @@
 {% set name = "parallel" %}
-{% set version = "1.18.0" %}
+{% set version = "1.19.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 1feafefa50df92e60d694ca83cd5c8290b273f4dbf4189c873e3f9fff32f3724
+  sha256: c27ee2925978e8100f49063fd60f625522a6e96b08541ac26e7f2a72d594518a
 
 build:
   noarch: generic
